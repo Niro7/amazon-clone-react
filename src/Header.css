@@ -57,3 +57,12 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+.header__option:hover,
+.header__optionBasket:hover,
+.header__logo:hover {
+  cursor: pointer;
+}
+.header__searchIcon:hover {
+  cursor: pointer;
+  background-color: #cf882b;
+}
