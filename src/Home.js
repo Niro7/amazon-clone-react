@@ -12,12 +12,14 @@ function Home() {
         />
         <div className="home__row">
           <Product
+            id="12121212"
             title="You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life"
             price={8.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51r5X3h8IWL._SX315_BO1,204,203,200_.jpg"
           />
           <Product
+            id="85964231"
             title="New Apple MacBook Pro (16-inch, 16GB RAM, 512GB Storage, 2.6GHz Intel Core i7) - Silver"
             price={2099.79}
             rating={5}
@@ -26,18 +28,21 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
+            id="48753216"
             title="Roam Universal Premium Bike Phone Mount for Motorcycle - Bike Handlebars, Adjustable"
             price={19.98}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/713fujBvS9L._AC_SX425_.jpg"
           />
           <Product
+            id="08759614"
             title="Keurig K-Classic Coffee Maker, Single Serve K-Cup Pod Coffee Brewer"
             price={79.0}
             rating={5}
             image="https://m.media-amazon.com/images/I/71Ikuq6AAfL._AC_UL320_.jpg"
           />
           <Product
+            id="96324578"
             title="HolyHigh True Wireless Earbuds 5.0 Bluetooth Headphones Lightweight"
             price={27.99}
             rating={5}
@@ -46,6 +51,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
+            id="21979346"
             title="Best Choice Products Modern Faux Leather Convertible Futon Sofa w/Removable Armrests"
             price={199.99}
             rating={5}
