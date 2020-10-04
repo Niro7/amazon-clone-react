@@ -54,7 +54,7 @@ function Home() {
             id="21979346"
             title="Best Choice Products Modern Faux Leather Convertible Futon Sofa w/Removable Armrests"
             price={199.99}
-            rating={5}
+            rating={4}
             image="https://m.media-amazon.com/images/I/71xtb6-d-5L._AC_UL320_.jpg"
           />
         </div>
