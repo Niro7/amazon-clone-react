@@ -10,6 +10,7 @@ import { useStateValue } from './StateProvider';
 import Payment from './Payment';
 import {loadStripe} from '@stripe/stripe-js';
 import {Elements} from '@stripe/react-stripe-js';
+import Orders from "./Orders";
 
 const promise = loadStripe('pk_test_51HPvU8KOB9zeWUAqiHSr5GpfOKsVXwzIstfXCpSQwjoHod6dst2LboRWMgELw7pg9lggRqgD1UWuv85DfKNV6EIP00UCE8vBFY');
 
@@ -38,6 +39,10 @@ function App() {
       <div className="app">
         {/* Header component is repeated so it can be declared outside Switch */}
         <Switch>
+          <Route path='/orders'>
+          <Header />
+            <Orders />
+          </Route>
           <Route path="/login">
             <Login />
           </Route>
